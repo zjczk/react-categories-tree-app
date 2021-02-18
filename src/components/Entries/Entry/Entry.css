@@ -1,0 +1,96 @@
+.entry-container {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    font-weight: 600;
+    margin: 10px auto 10px;
+    background-color: #f6f5f5;
+    box-shadow: 0 2px 3px #ccc;
+    padding: 3px;
+    border-radius: 10px;
+}
+
+.entry {
+    display: flex;
+    justify-content: space-between;
+}
+
+.editor {
+    padding: 0.5rem;
+    justify-content: space-between;
+    background-color: #f8f1f1;
+    align-items: center;
+    font-weight: 600;
+    margin: 10px auto 10px;
+    box-shadow: 0 2px 3px #ccc;
+    padding: 3px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px 3% 20px;
+}
+
+.editor p {
+    color: #af0069
+}
+
+.editor input {
+    border-style: solid;
+    border-color: #af0069;
+    border-width: 2px;
+    border-radius: 5px;
+}
+
+.editor input:focus {
+    border-color: #af0069;
+  }
+
+button {
+border: none;
+background: none;
+}
+
+button:focus {
+    outline: none;
+}
+
+.controls {
+    margin-left: 13px;
+}
+
+.edit-btn::before{
+    content: '\f044';
+    color: #ff577f;
+    font-family: FontAwesome;
+    font-size: 100px;
+    font-size: 1.1em;
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.delete-btn::before {
+    content: '\f1f8';
+    color: #8b5e83;
+    font-family: FontAwesome;
+    font-size: 1.1em;
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.add-btn::before {
+    content: '\f0fe';
+    color: #eb5e0b;
+    font-family: FontAwesome;
+    font-size: 1.1em;
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.save-btn::before {
+    content: '\f058';
+    color: #af0069;
+    font-family: FontAwesome;
+    font-size: 1.3em;
+    opacity: 0.6;
+    cursor: pointer;
+    margin-left: 10px;
+}
